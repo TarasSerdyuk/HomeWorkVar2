@@ -4,6 +4,8 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
+        task6();
     }
         public static void task1() {
         System.out.println("Задача 1");
@@ -51,6 +53,26 @@ public class Main {
     byte performance = 16/2;
     int perf20min = performance*20;
         System.out.println("За 20 минут машина произвела " + perf20min + " штук бутылок");
+    int perf24H = performance * 24;
+        System.out.println("За 20 минут машина произвела " + perf24H + " штук бутылок");
+    int perf3Days = perf24H * 3;
+        System.out.println("За 20 минут машина произвела " + perf3Days + " штук бутылок");
+    int perfMonth = perf24H * 30;
+        System.out.println("За 20 минут машина произвела " + perfMonth + " штук бутылок");
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+    byte allJar = 120;
+    byte whiteJar = 2;
+    byte brownJar = 4;
+    byte oneClassJar = (byte) (whiteJar + brownJar);
+    byte quantityClass = (byte) (allJar/oneClassJar);
+    byte allWhiteJar = (byte) (quantityClass * whiteJar);
+    byte allBrownJar = (byte) (quantityClass * brownJar);
+        System.out.println("В школе, где "+ quantityClass + " классов, нужно " + allWhiteJar + " банок белой краски и " + allBrownJar + " банок коричневой краски.");
+    }
+    public static void task6() {
+        System.out.println("Задача 6");
 
     }
 }
