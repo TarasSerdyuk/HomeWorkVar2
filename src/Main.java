@@ -109,6 +109,6 @@ public class Main {
     int payRiseKristina = newSalaryKristina * 12 - salaryKristina * 12;
         System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + payRiseMasha + " рублей.");
         System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + payRiseDenis + " рублей.");
-        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + payRiseKristina + " рублей.");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + payRiseKristina + " рублей. ");
     }
 }
