@@ -6,6 +6,8 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+        task8();
     }
         public static void task1() {
         System.out.println("Задача 1");
@@ -73,6 +75,30 @@ public class Main {
     }
     public static void task6() {
         System.out.println("Задача 6");
+    byte weightBanan = 80;
+    byte weightMilk = 105;
+    byte weightIceCream = 100;
+    byte weightEgg = 70;
+    short allWeightGr = (short) (5 * weightBanan + 2 * weightMilk + 2 * weightIceCream + 4 * weightEgg);
+    float allWeightKg = allWeightGr / 1000f;
+        System.out.println("Вес спортзавтрака равен " + allWeightGr + " гр");
+        System.out.println("Вес спортзавтрака равен " + allWeightKg + " кг");
+    }
+    public static void task7() {
+        System.out.println("Задача 7");
+        short loseWeight = 7000;
+        short loseWeight250 = 250;
+        short loseWeight500 = 500;
+        short dayLoseWeight250 = (short) (loseWeight / loseWeight250);
+        short dayLoseWeight500 = (short) (loseWeight / loseWeight500);
+        short midleDay = (short) ((dayLoseWeight250+dayLoseWeight500)/2);
+        System.out.println("Потребуется " + dayLoseWeight250 + " дней для похудения, если терять каждый день 250гр");
+        System.out.println("Потребуется " + dayLoseWeight500 + " дней для похудения, если терять каждый день 500гр");
+        System.out.println("Потребуется " + midleDay + " дней для похудения, в среднем");
+    }
+    public static void task8() {
+        System.out.println("Задача 8");
 
     }
+
 }
