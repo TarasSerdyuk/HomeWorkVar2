@@ -98,7 +98,17 @@ public class Main {
     }
     public static void task8() {
         System.out.println("Задача 8");
-
+    int salaryMasha = 67760;
+    int salaryDenis = 83690;
+    int salaryKristina = 76230;
+    int newSalaryMasha = (int) (salaryMasha * 1.1);
+    int newSalaryDenis = (int) (salaryDenis * 1.1);
+    int newSalaryKristina = (int) (salaryKristina * 1.1);
+    int payRiseMasha = newSalaryMasha * 12 - salaryMasha * 12;
+    int payRiseDenis = newSalaryDenis * 12 - salaryDenis * 12;
+    int payRiseKristina = newSalaryKristina * 12 - salaryKristina * 12;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + payRiseMasha + " рублей.");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + payRiseDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + payRiseKristina + " рублей.");
     }
-
 }
